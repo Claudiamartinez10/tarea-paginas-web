@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo1.css">
+    <title>Fundamentos de la programación</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h3>Elisa</h3>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#"><span class="fa fa-home"></span>Inicio</a></li>
+                <li><a href="#aboutme"><i class="fa-brands fa-500px"></i>Fundamentos de la programación</a></li>
+                <li><a href="#contact"><i class="fa-brands fa-product-hunt"></i>¿Que es programacion?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 id="aboutme">Fundamentos de la programación</h1>
+            <article>
+                <h2>Informatica, computadoras y programacion</h2>
+                <p class="letracapital">Informática (Ciencia de la computación)
+                    Conjunto	de	conocimientos	científicos	y	técnicas	
+                    que	hacen	posible	el	tratamiento	automático	
+                    de	la	información	por	medio	de	ordenadores
+                    Computadora
+                    Máquina	electrónica,	analógica	o	digital,
+                    dotada	de	una	memoria de	gran	capacidad	
+                    y	de	métodos	de	tratamiento de	la	información,	
+                    capaz	de	resolver	problemas matemáticos	y	lógicos
+                    mediante	la	ejecución de	programas informáticos
+                </p>
+            </article>
+            <article>
+                <h2>Hardware y Software</h2>
+                <p class="letracapital">Hardware
+                Componentes	que	integran
+                la	parte	material	
+                de	una	computadora
+                Software
+                Programas,	instrucciones	
+                y	reglas	informáticas	
+                para	ejecutar	tareas	
+                en	una	computadora
+            </p>
+            <img src="./img/compu.jpg" alt="logo"/>
+            <img src="./img/software.png" alt="logo"/>
+
+            </article>
+            <article>
+                <h2>Programar</h2>
+                <p class="letracapital">Indicar	a	la	computadora	qué	es	lo	que	tiene	que	hacer:
+
+                </p>
+                    <nav class="menu" >
+                    <ol type="">
+                    <li>Secuencia	de	instrucciones</li>
+                    <li>Instrucciones	que	entiende	la	computadora</li>
+                    <li>Y	que	persiguen	un	objetivo:	¡resolver un problema!</li>
+                </ol>
+            </nav>
+            
+            </article>
+        </section>
+        <section>
+            <h1 id="contact">¿Que es programacion?</h1>
+            <article>
+                <h2></h2>
+                <p class="letracapital">La programación es el proceso de crear un conjunto de instrucciones que le dicen
+                    a una computadora como realizar algún tipo de tarea. Pero no solo la acción de escribir un código para que la computadora o el software lo ejecute. Incluye, además, todas las tareas necesarias para que el código funcione correctamente y cumpla el objetivo para el cual se escribió.
+
+                    En la actualidad, la noción de programación se encuentra muy asociada a la creación de aplicaciones de informática y videojuegos. En este sentido, es el proceso por el cual una persona desarrolla un programa, valiéndose de una herramienta que le permita escribir el código (el cual puede estar en uno o varios lenguajes, como C++, Java y Python, entre muchos otros) y de otra que sea capaz de “traducirlo” a lo que se conoce como lenguaje de máquina, que puede "comprender" el microprocesador.</p>
+            </article>
+            <article>
+                <h2>Funcionamiento de un programa</h2>
+                <p class="letracapital">Para crear un programa y que la computadora lo interprete y ejecute, las instrucciones deben escribirse en un lenguaje de programación.
+
+                    El lenguaje entendido por una computadora se conoce como código máquina. Consiste en secuencias de instrucciones básicas que el procesador reconoce, codificadas como cadenas de números 1 y 0 (sistema binario). En los primeros tiempos de la computación se programaba directamente en código máquina. Escribir programas así resultaba demasiado complicado, también era difícil entenderlos y mantenerlos una vez escritos. Con el tiempo, se fueron desarrollando herramientas para facilitar el trabajo.
+                    
+                    Los primeros científicos que trabajaron en el área decidieron reemplazar las secuencias de unos y ceros por mnemónicos, que son abreviaturas en inglés de la función que cumple una instrucción de procesador. Por ejemplo, para sumar se podría usar la letra A de la palabra inglesa add (añadir). Crearon así una familia de lenguajes de mayor nivel, que se conocen como lenguaje ensamblador o simplemente ensamblador (en inglés, assembly). Con el tiempo los ensambladores incorporaron facilidades adicionales, pero siempre manteniendo una correspondencia directa con las instrucciones de procesador. A nivel conceptual, entonces, programar en ensamblador es muy similar a hacerlo en lenguaje máquina, solo que de una forma más amigable.
+                    
+                    A medida que la complejidad de las tareas que realizaban las computadoras aumentaba, el lenguaje ensamblador fue mostrando limitaciones. Para hacer un programa había que conocer en detalle el funcionamiento de la computadora donde se iba a ejecutar, qué instrucciones proveía y cómo emplearlas. A veces las instrucciones eran demasiado básicas, por ejemplo podía haber una para sumar dos números pero no para multiplicar, y entonces era necesario programar un algoritmo que realizara la multiplicación con base en instrucciones más básicas. Otras veces, la forma de emplear las instrucciones era engorrosa. Además, si se usaba otro modelo de computadora, en muchos casos había que reescribir el programa con otras instrucciones. El siguiente paso fue crear los lenguajes de alto nivel.
+                    
+                    Una vez que se termina de escribir un programa, es necesario de alguna forma traducirlo a lenguaje máquina, que es lo único que entiende el procesador. Esta tarea es automática, por medio de un programa adicional que toma el código escrito y lo procesa. Hay distintos enfoques para este procesamiento. El enfoque clásico se llama compilación: el programa toma el código en un lenguaje y genera código en el otro; al programa traductor se lo llama compilador. En general se habla de compilación y compiladores cuando el lenguaje de origen es de alto nivel; si la traducción es desde lenguaje ensamblador, se llama ensamblado y el programa se llama ensamblador (hay que distinguir el lenguaje ensamblador del programa ensamblador; en inglés es más claro, son assembly language y assembler respectivamente).Generalmente existe una fase posterior a la compilación denominada enlace o enlazado (linking en inglés). Los programas pueden escribirse en partes separadas y además pueden usar recursos provistos por bibliotecas. El enlazado, realizado por un programa llamado enlazador, combina todos los componentes y así genera un programa ejecutable completo.
+                    
+                    En algunos lenguajes de programación, puede usarse un enfoque diferente que no requiera compilación y enlace: un programa llamado intérprete va leyendo el código y realizando en el momento las acciones que haría el programa. Se evita generar código separado y la experiencia es que se está ejecutando el código en el lenguaje de alto nivel, a pesar de que el procesador no lo entienda de forma nativa.
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

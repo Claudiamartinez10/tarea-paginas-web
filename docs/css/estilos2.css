@@ -1,0 +1,100 @@
+/*SELECTORES UNIVERSAL*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*SELECTORES DE ETIQUETAS*/
+body {
+    background-image: url("../img/html.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: tra;
+}
+
+/*estilos para etiqueta de encabezado */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(128, 68, 0);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+/*ESTILOS PARA EL LOGO*/
+.logo {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/*ESTILOS PARA LA ETIQUETA NAV QUE CONTIENE NAVEGACION*/
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: rgba(0, 26, 255, 0.856);
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: black;
+    color: white;
+}
+.menu ol {
+    list-style: none;
+    background-position: center;
+}
+
+
+
+
+/*ESTILOS DEL CONTENEDOR PRINCIPAL*/
+main {
+    top: 100px;
+    background-color: rgba(240, 248, 255, 0.889);
+    box-shadow: 2px 5px 20px rgba(240, 248, 255, 0.889);
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.letracapital::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(90, 128, 0);
+    margin: 10px;
+}
+
+/*ESTILOS PARA LOS H1 Y LOS H2*/
+section h1,
+section article h2 {
+    text-align: center;
+    border-bottom: 10px solid rgb(128, 51, 0);
+}
+
+/*ESTILOS PARA LOS PARRAFOS DENTRO DE LA ETIQUETA ARTICLE */
+section article p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
